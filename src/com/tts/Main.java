@@ -121,9 +121,9 @@ public class Main {
             ArrayList<Integer> resultHopper = new ArrayList<>();
 
             // Final Pet Ball Result
-            int finalFavePet = favPet.charAt(2);
-            finalFavePet = reduceNormal(finalFavePet);
-            resultHopper.add(finalFavePet);
+            int finalFavoritePet = favPet.charAt(2);
+            finalFavoritePet = reduceNormal(finalFavoritePet);
+            resultHopper.add(finalFavoritePet);
 
             // Final Model Year + Lucky Number Result
             int finalModelYearAndLucky = modelYear + luckyNumber;
