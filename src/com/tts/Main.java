@@ -91,7 +91,7 @@ public class Main {
             System.out.println("What are the last two digits of your car's model year? (##): ");
             int modelYear = scan.nextInt();
             response = scan.nextLine();
-            System.out.println("Ah yes, good ol '" + modelYear + ", the best year for those models!");
+            System.out.println("A wise choice mate! '" + modelYear + ", it suits you well!");
 
 
             // Question: Favorite Actor
@@ -104,7 +104,7 @@ public class Main {
             System.out.println("Enter any random number between 0 and 50! (0-50): ");
             int randomNumber = scan.nextInt();
             response = scan.nextLine();
-            System.out.println("Wow, " + randomNumber + ", so random!");
+            System.out.println("Okay, " + randomNumber + ",Interesting!");
 
 
             // Generate the lotto numbers!
@@ -179,7 +179,7 @@ public class Main {
             System.out.print("Magic Ball: " + finalMagicBall + "\n\n");
 
             // Play Again?
-            System.out.println("Do you want to play again? (Y/N): ");
+            System.out.println("Care to play again? (Y/N): ");
             response = scan.nextLine();
             keepGoing = (response.equalsIgnoreCase("y") || response.equalsIgnoreCase("yes"));
 
